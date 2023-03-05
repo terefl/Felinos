@@ -139,12 +139,39 @@ h1{
         font-family: "Titulo",sans-serif;
         text-transform: uppercase;
         color: #4A2D26;
+        padding-bottom: 0.5rem;
     }
     span{
         font-weight: bold;
     }
     #inicio{
         padding-bottom: 2rem;
+    }
+    #psegundo{
+        padding-top: 0.5rem;
+    }
+    #lista table,thead,tbody,tr,td,th{
+        border: 2px solid #4A2D26;
+        border-collapse: collapse;
+        padding: 0.2rem;
+    }
+    #lista table{
+        margin-bottom: 0.5rem;
+    }
+    #lista tbody{
+        background-color: #EADDCD;
+    }
+    .ul{
+        font-family: "Titulo",sans-serif;
+        font-size: larger;
+        color: #EADDCD;
+        font-weight: bold;
+    }
+    #lista td{
+        text-align: center;
+    }
+    #lista thead{
+        background-color: #A08986;
     }
     #cuerpo article{
         border: 1px solid #4A2D26;
